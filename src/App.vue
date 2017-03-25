@@ -32,9 +32,10 @@ body {
 }
 
 #app {
-  width: 100vw;
-  height: 100vh;
-  min-width: 960px;
+  width: 100%;
+  height: 100%;
+  min-width: 300px;
+  background-color: #e0e0e0;
 }
 
 </style>

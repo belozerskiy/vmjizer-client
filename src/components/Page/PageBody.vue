@@ -9,5 +9,6 @@
 <style>
   .page-body {
     height: 100%;
+    overflow-y: auto;
   }
 </style>

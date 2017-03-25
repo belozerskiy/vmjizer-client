@@ -6,7 +6,7 @@
                 <div class="ui segment">
                     <h3>Вход</h3>
                 </div>
-                <div class="ui segment">
+                <div class="ui secondary segment">
                     <form class="ui icon form">
                         <div class="field">
                             <label>Логин</label>
@@ -24,6 +24,7 @@
                         </div>
                         <button class="ui fluid large teal submit button" @click.prevent="enter">Вход</button>
                     </form>
+                </div>
             </div>
         </grid-column>
     </div>
@@ -69,5 +70,6 @@
         width: 350px;
         height: 300px;
         margin: 0 auto;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
    }
 </style>
